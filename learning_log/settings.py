@@ -139,5 +139,5 @@ django_heroku.settings(locals())
 #DEBUG CHECK
 if os.environ.get('DEBUG') == 'TRUE':
     DEBUG = True
-elif os.environ.get('DEBUG') == 'FLASE':
+elif os.environ.get('DEBUG') == 'FALSE':
     DEBUG = False
